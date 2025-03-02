@@ -11,6 +11,9 @@
         "src": "/(.*)",
         "dest": "/api/index.php"
       }
-    ]
+    ],
+    "scripts": {
+      "build": "./build.sh"
+    }
   }
   
