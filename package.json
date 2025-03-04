@@ -3,7 +3,7 @@
     "type": "module",
     "scripts": {
         "build": "vite build",
-        "dev": "vite"
+        "dev": "php -S localhost:8000 -t public"
     },
     "devDependencies": {
         "@tailwindcss/vite": "^4.0.0",
